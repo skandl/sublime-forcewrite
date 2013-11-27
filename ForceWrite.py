@@ -12,5 +12,5 @@ class ForceWrite(sublime_plugin.EventListener):
                 try:
                   os.chmod(fileName, fileAttr | stat.S_IWRITE)
                 except OSError:
-                  print("Error: Unable to add owner write permissions");
+                  print("Error: Unable to add owner write permissions. File unsaved.");
 
