@@ -1,4 +1,4 @@
-# ForceWrite - (attempt to) overwrite a read-only file writing
+# ForceWrite - (attempt to) overwrite a read-only file on file save 
 import sublime, sublime_plugin
 import os, stat
 
